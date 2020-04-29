@@ -1,11 +1,6 @@
 //Enable Logging
 let cosa = async () => {
     PhonePe.PhonePe.loggingEnabled = true;
-    //Create PhonePe Instance
-    // PhonePe.PhonePe.build(PhonePe.Constants.Species.web)
-    //   .then((sdk) => { 
-    //       console.dir(sdk); 
-    //     })
     let sdk = await PhonePe.PhonePe.build(PhonePe.Constants.Species.web);
     PhonePe.PhonePe.build(PhonePe.Constants.Species.web).then((sdk) => {
         sdk.fetchAuthToken().then((res) => {
@@ -17,3 +12,4 @@ let cosa = async () => {
         })
     })
 }
+cosa();
