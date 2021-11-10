@@ -13,7 +13,7 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "phonepesdk-web": "^1.0.3",
-    "pug": "2.0.0",
+    "pug": "3.0.0",
     "supervisor": "^0.12.0"
   }
 }
